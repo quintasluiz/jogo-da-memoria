@@ -1,0 +1,68 @@
+body{
+    background-color: cornflowerblue;
+    background-image: url(./img/open.jpeg);
+    background-size: cover;
+}
+
+.container{
+  
+   margin-top: 260px;
+   
+}
+
+h1, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  
+   
+}
+
+#title{
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+div{
+    width: 300px;
+    margin: 0 auto;
+      
+}
+
+button{
+    padding: 15px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.botao:active {
+    
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+.botao{
+color: black;
+font-weight: bold;
+background-color: yellow;
+margin-left: 5px;
+margin-top: 35px;
+
+}
+
+button:hover{
+    color: hotpink;
+}
